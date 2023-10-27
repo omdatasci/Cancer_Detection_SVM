@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cancer_Prediction</title>
+</head>
+<body>
+    <h1>Cancer Cells Prediction</h1>
+    <form action="/predict" method="POST">
+        <label for="clump">clump:</label><br>
+        <input type="text" id="clump" name="clump" required><br>
+
+        <label for="unifSize">UnifSize:</label><br>
+        <input type="unifSize" id="unifSize" name="unifSize" required><br>
+
+        <label for="unifShape">unifShape</label><br>
+        <input type="unifShape" id="unifShape" name="unifShape" required><br>
+
+        <label for="margAdh">UnifSize:</label><br>
+        <input type="margAdh" id="margAdh" name="margAdh" required><br>
+
+        <label for="singEpiSize">UnifSize:</label><br>
+        <input type="singEpiSize" id="singEpiSize" name="singEpiSize" required><br>
+
+        <label for="blandChrom">UnifSize:</label><br>
+        <input type="blandChrom" id="blandChrom" name="blandChrom" required><br>
+
+        <label for="normNucl">unifShape</label><br>
+        <input type="normNucl" id="normNucl" name="normNucl" required><br>
+
+        <input type="submit" value="Predict">
+
+    </form>
+
+
+</body>
+</html>
